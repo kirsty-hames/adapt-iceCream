@@ -1,0 +1,24 @@
+{{! Maintainers - Daryl Hedley}}
+{{! .component-container: Adapt will place the blocks components inside this class}}
+<div class="block-inner">
+    <div class="block-padding">
+        {{! Check if a page title exist and render it}}
+        {{#if title}}
+        <div class="block-title">
+            <h3 class="block-title-inner">
+                {{{title}}}
+            </h3>
+        </div>
+        {{/if}}
+        {{! Check if page body exists and render it}}
+        {{#if body}}
+        <div class="block-body">
+            <div class="block-body-inner">
+                {{{body}}}
+            </div>
+        </div>
+        {{/if}}
+        <div class="component-container">
+        </div>
+    </div>
+</div>

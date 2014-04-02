@@ -1,0 +1,23 @@
+{
+  "name": "adapt-iceCream",
+  "version": "0.0.1",
+  "description": "A full width block theme based upon pastel colours",
+  "main": "",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kirsty-hames/adapt-iceCream.git"
+  },
+  "author": "AdaptLearning",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/kirsty-hames/adapt-iceCream/issues"
+  },
+  "devDependencies": {
+    "karma": "~0.9",
+    "karma-mocha": "*",
+    "karma-expect": "*"
+  }
+}

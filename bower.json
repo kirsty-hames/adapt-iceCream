@@ -1,0 +1,22 @@
+{
+  "name": "adapt-iceCream",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kirsty-hames/adapt-iceCream",
+  "authors": [
+    "Daryl Hedley <darylhedley@hotmail.com>"
+  ],
+  "description": "A core bundled theme",
+  "main": "js/iceCream.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-theme"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

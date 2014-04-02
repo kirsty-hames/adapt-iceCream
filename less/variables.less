@@ -1,0 +1,160 @@
+// Main colors
+// ===========
+@primary-color:#62676a;//dark grey
+@secondary-color:#fa8b78;//coral pink
+@tertiary-color:#9bd6c3;//mint green
+@forth-color:#9bb8c2;//blue grey
+@fith-color:#c0d58f;// lime green
+
+@foreground-color:#fff;
+@background-color:@primary-color;
+
+@inverted-foreground-color:#fff;
+@inverted-background-color:@primary-color;
+
+@transparency:rgba(255,255,255,0.8);
+@transparency-fallback-png:url('assets/transparency-light.png');
+
+// Item setup
+// ==========
+@item-color:@primary-color;
+@item-hover-color:darken(@primary-color, 20%);
+@item-disabled-color:#666;
+@item-visited-color:@secondary-color;
+@item-selected-color:@secondary-color;
+@item-text-color:#fff;
+@item-text-hover-color:#fff;
+@item-text-disabled-color:#fff;
+@item-text-visited-color:#fff;
+@item-text-selected-color:#fff;
+
+@item-padding-top:10px;
+@item-padding-right:10px;
+@item-padding-bottom:10px;
+@item-padding-left:10px;
+
+@item-padding:@item-padding-top @item-padding-right @item-padding-bottom @item-padding-left;
+
+@item-spacing:2px;
+
+// Button
+// ======
+@button-color:@primary-color;
+@button-hover-color:darken(@primary-color, 20%);
+@button-disabled-color:#ccc;
+
+@button-text-color:#fff;
+@button-text-hover-color:#fff;
+@button-text-disabled-color:#aaa;
+
+@button-padding-top:8px;
+@button-padding-right:10px;
+@button-padding-bottom:8px;
+@button-padding-left:10px;
+
+@button-padding:@button-padding-top @button-padding-right @button-padding-bottom @button-padding-left;
+@button-spacing-top:10px;
+@button-spacing-bottom:10px;
+
+// Border
+// ======
+@border-width:1px;
+@border-style:solid;
+@border-color:#fff;
+@border: @border-width @border-style @border-color;
+
+// Device widths
+// =============
+@device-width-small: 520px;
+@device-width-medium: 760px;
+@device-width-large: 1024px;
+@ie8-max-width:1024px;
+
+// Global spacing
+// ==============
+@content-padding:40px 20px;
+@page-title-padding:80px 40px 80px 40px;
+@article-title-padding:40px 20px 0px;
+@article-body-padding:80px 20px 80px 20px;
+@block-title-padding:40px 0px 0px;
+@block-body-padding: 80px 20px 80px 20px;
+@component-title-padding:0px;
+@component-body-padding:0px;
+
+@title-spacing:10px 0px;
+@body-spacing:0px 0px 20px;
+@instruction-spacing: 0px 0px 20px;
+
+
+// Navigation
+// ==========
+
+@navigation-color:@primary-color;
+@navigation-icon-color:#fff;
+@navigation-icon-hover-color:@tertiary-color;
+
+@navigation-border-width:4px;
+@navigation-border-style:solid;
+@navigation-border-color:@tertiary-color;
+@navigation-border: @navigation-border-width @navigation-border-style @navigation-border-color;
+
+@navigation-height: 60px;
+@navigation-height-mobile: 50px;
+@navigation-padding: ((@navigation-height - @icon-size)/2);
+@navigation-padding-mobile: ((@navigation-height-mobile - @icon-size)/2);
+
+// Drawer
+// ======
+
+@drawer-color:@primary-color;
+@drawer-text-color:#fff;
+
+@drawer-icon-color:#fff;
+@drawer-icon-hover-color:@tertiary-color;
+
+@drawer-item-color:@primary-color;
+@drawer-item-hover-color:@tertiary-color;
+
+@drawer-item-text-color:#fff;
+@drawer-item-text-hover-color:#fff;
+
+@drawer-item-padding-top:10px;
+@drawer-item-padding-right:10px;
+@drawer-item-padding-bottom:10px;
+@drawer-item-padding-left:10px;
+
+@drawer-item-padding:@drawer-item-padding-top @drawer-item-padding-right @drawer-item-padding-bottom @drawer-item-padding-left;
+
+// Notify
+// ======
+
+@notify-color:@secondary-color;
+@notify-text-color:#fff;
+
+@notify-icon-color:#fff;
+@notify-icon-hover-color:darken(@notify-color, 30%);
+
+@notify-button-color:#fff;
+@notify-button-hover-color:darken(@notify-color, 30%);
+@notify-button-text-color:#3eb4e4;
+@notify-button-text-hover-color:#fff;
+
+@notify-popup-padding:30px;
+
+// Fonts
+// =====
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
+@font-family:'Quicksand', sans-serif;
+@font-size:16px;
+@font-line-height-extra:10px;
+@font-color:@foreground-color;
+@font-weight-light:400;
+@font-weight-normal:400;
+@font-weight-bold:700;
+
+// Icons
+// =====
+@icon-size:24px;
+@icon-correct-color:#51FB66;
+@icon-incorrect-color:#F14E4E;
