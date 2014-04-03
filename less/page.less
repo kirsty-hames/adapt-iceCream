@@ -11,7 +11,20 @@
     }
     .page-title-inner {
         padding: @page-title-padding;
-        border-bottom: 2px solid #fff;
-        .responsive-layout;
+        border-bottom: 4px solid @tertiary-color;
+        @media all and (min-width:@device-width-large) {
+            width:(@device-width-large - 40px);
+            margin:0 auto;
+        }
+    
+        @media all and (max-width:@device-width-large) {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+
+        @media all and (max-width:@device-width-small) {
+            max-width: 90%;
+            margin: 0 auto;
+        }
     }
 }
