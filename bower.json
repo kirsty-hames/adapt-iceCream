@@ -5,7 +5,7 @@
   "authors": [
     "Daryl Hedley <darylhedley@hotmail.com>"
   ],
-  "description": "A core bundled theme",
+  "description": "A full width block theme based upon pastel colours",
   "main": "js/iceCream.js",
   "keywords": [
     "adapt-plugin",
