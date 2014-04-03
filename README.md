@@ -1,9 +1,9 @@
-adapt-contrib-vanilla
+adapt-iceCream
 =====================
 
 Introduction
 ---
-This is the 'Vanilla' theme, a core theme bundled with the Adapt framework.
+This is the 'Ice Cream' theme, a core theme bundled with the Adapt framework.
 
 As with any Adapt compatible theme, the structure of the theme is as follows:
 

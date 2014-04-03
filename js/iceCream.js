@@ -1,3 +1,9 @@
+/*
+* Adapt Ice Cream
+* License - http://github.com/adaptlearning/adapt_framework/LICENSE
+* Maintainers - Kirsty Hames
+*/
+
 define(function(require) {
 	
 	var Adapt = require('coreJS/adapt');
