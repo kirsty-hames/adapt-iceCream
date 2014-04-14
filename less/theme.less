@@ -3,12 +3,12 @@
 // Bespoke theme styling
 // =====================
 
-// Custom class to be added to article
+
+// block theme colors
 
 .coral-pink-block {
 	background-color: @secondary-color;
 }
-
 .mint-green-block {
 	background-color: @tertiary-color;
 }
@@ -18,6 +18,8 @@
 .lime-green-block {
 	background-color: @fith-color;
 }
+
+// block images
 
 .image-block-1 {
 	padding-top: 280px;
@@ -35,4 +37,24 @@
 	padding-top: 280px;
 	background-image: url('assets/backgroundC.jpg');
 	background-repeat:no-repeat;
+}
+
+.narrative-component {
+	.narrative-progress {
+	&.selected {
+	background-color: lighten(@primary-color, 30%);
+	}
+	}
+}
+
+// progress bar
+
+.page-level-progress-navigation-bar {
+	background-color: @tertiary-color;
+}
+
+// menu items
+
+.menu-item-body-inner .menu-item-title-inner {
+	color: none;
 }
